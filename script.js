@@ -11,7 +11,7 @@ buttons.forEach((button) => {
     document.querySelector('#working-calc').innerHTML = input;
 
         //parse input to get numbers and operators
-        const parts = input.split(/\+|\-|\*|\//);
+    const parts = input.split(/\+|\-|\*|\//);
     const num1 = parseFloat(parts[0]);
     const num2 = parseFloat(parts[1]);
     const operator = input.match(/\+|\-|\*|\//)[0];
