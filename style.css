@@ -23,6 +23,11 @@
     margin: 5px;
 }
 
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
 
 
 .display{
